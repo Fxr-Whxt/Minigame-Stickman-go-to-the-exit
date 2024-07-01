@@ -1,3 +1,5 @@
+<div align="center">
+
 # Minigame-Stickman-go-to-the-exit
 
 This is a minigame that you can play 
@@ -20,4 +22,4 @@ Movement is simple, just use a arrows on your keyboard</b>
 
 ### Run to right : Arrow right
 
-
+</div>

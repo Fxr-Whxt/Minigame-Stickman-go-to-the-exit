@@ -16,7 +16,7 @@ class Game:
 
         self.canvas_height = 500
         self.canvas_width = 500
-        self.bg = PhotoImage(file="/home/sasha/питон проекты/animations for games/background.gif")
+        self.bg = PhotoImage(file="assets/background.gif")
         w = self.bg.width()
         h = self.bg.height()
 
@@ -112,14 +112,14 @@ class StickFigureSprite(Sprite):
     def __init__(self, game):
         Sprite.__init__(self, game)
         self.images_left = [
-            PhotoImage(file="/home/sasha/питон проекты/animations for games/figure_l1.gif"),
-            PhotoImage(file="/home/sasha/питон проекты/animations for games/figure_l2.gif"),
-            PhotoImage(file="/home/sasha/питон проекты/animations for games/figure_l3.gif")
+            PhotoImage(file="assets/figure_l1.gif"),
+            PhotoImage(file="assets/figure_l2.gif"),
+            PhotoImage(file="assets/figure_l3.gif")
         ]
         self.images_right = [
-            PhotoImage(file="/home/sasha/питон проекты/animations for games/figure_r1.gif"),
-            PhotoImage(file="/home/sasha/питон проекты/animations for games/figure_r2.gif"),
-            PhotoImage(file="/home/sasha/питон проекты/animations for games/figure_r3.gif")
+            PhotoImage(file="assets/figure_r1.gif"),
+            PhotoImage(file="assets/figure_r2.gif"),
+            PhotoImage(file="assets/figure_r3.gif")
         ]
         self.image = game.canvas.create_image(200, 470, \
                 image=self.images_left[0], anchor='nw')
@@ -264,16 +264,16 @@ class DoorSprite(Sprite):
 
 
 g = Game()
-platform1 = PlatformSprite(g, PhotoImage(file="/home/sasha/питон проекты/animations for games/platform.big.gif"), 0, 480, 100, 10)
-platform2 = PlatformSprite(g, PhotoImage(file="/home/sasha/питон проекты/animations for games/platform.big.gif"), 150, 440, 100, 10)
-platform3 = PlatformSprite(g, PhotoImage(file="/home/sasha/питон проекты/animations for games/platform.big.gif"), 300, 400, 100, 10)
-platform4 = PlatformSprite(g, PhotoImage(file="/home/sasha/питон проекты/animations for games/platform.big.gif"), 300, 160, 100, 10)
-platform5 = PlatformSprite(g, PhotoImage(file="/home/sasha/питон проекты/animations for games/platform_medium.gif"), 175, 350, 66, 10)
-platform6 = PlatformSprite(g, PhotoImage(file="/home/sasha/питон проекты/animations for games/platform_medium.gif"), 50, 300, 66, 10)
-platform7 = PlatformSprite(g, PhotoImage(file="/home/sasha/питон проекты/animations for games/platform_medium.gif"), 170, 120, 66, 10)
-platform8 = PlatformSprite(g, PhotoImage(file="/home/sasha/питон проекты/animations for games/platform_medium.gif"), 45, 60, 66, 10)
-platform9 = PlatformSprite(g, PhotoImage(file="/home/sasha/питон проекты/animations for games/platform_small.gif"), 170, 250, 32, 10)
-platform10 = PlatformSprite(g, PhotoImage(file="/home/sasha/питон проекты/animations for games/platform_small.gif"), 230, 200, 32, 10)
+platform1 = PlatformSprite(g, PhotoImage(file="assets/platform.big.gif"), 0, 480, 100, 10)
+platform2 = PlatformSprite(g, PhotoImage(file="assets/platform.big.gif"), 150, 440, 100, 10)
+platform3 = PlatformSprite(g, PhotoImage(file="assets/platform.big.gif"), 300, 400, 100, 10)
+platform4 = PlatformSprite(g, PhotoImage(file="assets/platform.big.gif"), 300, 160, 100, 10)
+platform5 = PlatformSprite(g, PhotoImage(file="assets/platform_medium.gif"), 175, 350, 66, 10)
+platform6 = PlatformSprite(g, PhotoImage(file="assets/platform_medium.gif"), 50, 300, 66, 10)
+platform7 = PlatformSprite(g, PhotoImage(file="assets/platform_medium.gif"), 170, 120, 66, 10)
+platform8 = PlatformSprite(g, PhotoImage(file="assets/platform_medium.gif"), 45, 60, 66, 10)
+platform9 = PlatformSprite(g, PhotoImage(file="assets/platform_small.gif"), 170, 250, 32, 10)
+platform10 = PlatformSprite(g, PhotoImage(file="assets/platform_small.gif"), 230, 200, 32, 10)
 g.sprites.append(platform1)
 g.sprites.append(platform2)
 g.sprites.append(platform3)
@@ -284,7 +284,7 @@ g.sprites.append(platform7)
 g.sprites.append(platform8)
 g.sprites.append(platform9)
 g.sprites.append(platform10)
-door = DoorSprite(g, PhotoImage(file="/home/sasha/питон проекты/animations for games/door_closed.gif"), 45, 30, 40, 35)
+door = DoorSprite(g, PhotoImage(file="assets/door_closed.gif"), 45, 30, 40, 35)
 g.sprites.append(door)
 
 sf = StickFigureSprite(g)

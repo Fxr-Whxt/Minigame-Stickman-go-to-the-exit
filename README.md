@@ -4,7 +4,7 @@
 
 This is a minigame that you can play 
 
-
+<img src="assets for Readme/start.gif">
 
 ## Description:
 

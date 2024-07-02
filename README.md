@@ -23,6 +23,8 @@ Movement is simple, just use a arrows on your keyboard</b>
 ### Run to right : Arrow right
 
 
+## How to install:
+
 
 
 <img src="assets for Readme/finish.gif">

@@ -25,7 +25,7 @@ Movement is simple, just use a arrows on your keyboard</b>
 
 
 
-
+<img src="assets for Readme/finish.gif">
 
 
 

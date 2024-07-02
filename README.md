@@ -4,7 +4,11 @@
 
 This is a minigame that you can play 
 
+### Gameplay
+
 <img src="assets for Readme/start.gif">
+
+
 
 ## Description:
 
@@ -34,9 +38,12 @@ just install 2 files:
 Or just install this all repository and that will work
 
 
-## Finish
+## Finish gameplay
 
 <img src="assets for Readme/finish.gif">
+
+
+# Thank for seeing this! ^^
 
 
 

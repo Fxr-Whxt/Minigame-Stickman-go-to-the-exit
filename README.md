@@ -25,7 +25,16 @@ Movement is simple, just use a arrows on your keyboard</b>
 
 ## How to install:
 
+just install 2 files: 
 
+### 1: code of game
+
+### 2: assets for game
+
+Or just install this all repository and that will work
+
+
+## Finish
 
 <img src="assets for Readme/finish.gif">
 
